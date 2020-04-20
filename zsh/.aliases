@@ -1,0 +1,2 @@
+alias reload='exec ${SHELL} -l'
+alias gia='git add $(git ls-files --modified --others --exclude-standard | fzf -m)'
